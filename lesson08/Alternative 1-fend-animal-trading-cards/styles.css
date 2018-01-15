@@ -1,0 +1,37 @@
+
+body {
+  margin: 10px;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+ul > li > span {
+  font-weight: bold;
+}
+
+.align-left {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.card {
+  border: 1px solid lightgrey;
+  box-shadow: 5px 5px 5px lightgray;
+  padding: 10px;
+  width: 300px;
+}
+
+.animal-image {
+  width: 300px;
+}
+
+.animal-info {
+  border: 1px solid lightgrey;
+  padding: 10px;
+}
+
+.animal-fact {
+  font-style: italic;
+}
