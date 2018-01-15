@@ -3,19 +3,6 @@ body {
   margin: 10px;
 }
 
-ul > li {
-  list-style-type: none;
-}
-
-ul > li > span {
-  font-weight: bold;
-}
-
-.align-left {
-  margin-left: 0;
-  padding-left: 0;
-}
-
 .card {
   background-color: #D48F6A;
   border: 1px solid lightgrey;
@@ -30,9 +17,22 @@ ul > li > span {
 
 .animal-info {
   background-color: #FFC8AA;
+  border: 1px solid lightgrey;
+  margin-top: 10px;
   padding: 10px;
+}
+
+.animal-info ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.animal-info span {
+  font-weight: bold;
 }
 
 .animal-fact {
   font-style: italic;
 }
+

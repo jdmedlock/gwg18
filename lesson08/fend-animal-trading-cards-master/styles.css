@@ -3,15 +3,6 @@ body {
   margin: 10px;
 }
 
-.align-left {
-  margin-left: 0;
-  padding-left: 0;
-}
-
-.emphasize {
-  font-weight: bold;
-}
-
 .card {
   border: 1px solid lightgrey;
   box-shadow: 5px 5px 5px lightgray;
@@ -24,8 +15,18 @@ body {
 }
 
 .animal-info {
+  margin-top: 10px;
   border: 1px solid lightgrey;
   padding: 10px;
+}
+
+.animal-info ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.animal-info span {
+  font-weight: bold;
 }
 
 .animal-fact {

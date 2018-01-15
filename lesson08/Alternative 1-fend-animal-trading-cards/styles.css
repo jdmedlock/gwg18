@@ -3,19 +3,6 @@ body {
   margin: 10px;
 }
 
-ul > li {
-  list-style-type: none;
-}
-
-ul > li > span {
-  font-weight: bold;
-}
-
-.align-left {
-  margin-left: 0;
-  padding-left: 0;
-}
-
 .card {
   border: 1px solid lightgrey;
   box-shadow: 5px 5px 5px lightgray;
@@ -29,7 +16,18 @@ ul > li > span {
 
 .animal-info {
   border: 1px solid lightgrey;
+  margin-top: 10px;
   padding: 10px;
+}
+
+.animal-info ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.animal-info span {
+  font-weight: bold;
 }
 
 .animal-fact {
