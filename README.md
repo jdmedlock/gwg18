@@ -8,4 +8,9 @@ This repo contains my solutions to the coursework. If you have also been awarded
 
 ## Curriculum
 
-*_To Be Completed_*
+Lesson 1 - Welcome
+Lesson 2 - HTML Syntax
+Lesson 3 - HTML Syntax Problem Set
+Lesson 4 - Project: Mockup-to-Article
+Lesson 5 - CSS Syntax
+Lesson 6 - CSS Syntax Problem Set
