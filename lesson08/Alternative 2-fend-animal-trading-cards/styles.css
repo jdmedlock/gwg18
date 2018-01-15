@@ -17,6 +17,7 @@ ul > li > span {
 }
 
 .card {
+  background-color: #D48F6A;
   border: 1px solid lightgrey;
   box-shadow: 5px 5px 5px lightgray;
   padding: 10px;
@@ -28,7 +29,7 @@ ul > li > span {
 }
 
 .animal-info {
-  border: 1px solid lightgrey;
+  background-color: #FFC8AA;
   padding: 10px;
 }
 
