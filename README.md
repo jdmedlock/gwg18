@@ -17,5 +17,5 @@ This repo contains my solutions to the coursework. If you have also been awarded
 - Lesson 7 - How to Write Code Faster
 - Lesson 8 - Project: Animal Trading Cards
   - [Solution 1](https://github.com/jdmedlock/gwg18/tree/development/lesson08/fend-animal-trading-cards-master) - A solution that exactly meets the problem specifications with no added adornments or features.
-  - [Solution 2]() - A solution that uses the DRY principle to reduce CSS class usage. Specifically, using child combinators to assign attributes to HTML tags (e.g. `ul > li`).
-  - [Solution 3]() - The same as Solution 2, but with the addtion of additional colors for the cards.
+  - [Solution 2](https://github.com/jdmedlock/gwg18/tree/development/lesson08/Alternative%201-fend-animal-trading-cards) - A solution that uses the DRY principle to reduce CSS class usage. Specifically, using child combinators to assign attributes to HTML tags (e.g. `ul > li`).
+  - [Solution 3](https://github.com/jdmedlock/gwg18/tree/development/lesson08/Alternative%202-fend-animal-trading-cards) - The same as Solution 2, but with the addtion of additional colors for the cards.
