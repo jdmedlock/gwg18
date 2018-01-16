@@ -22,8 +22,8 @@ This repo contains my solutions to the coursework. If you have also been awarded
 | Lesson 8   | Project: Animal Trading Cards <br> - [Solution 1](https://github.com/jdmedlock/gwg18/tree/development/lesson08/fend-animal-trading-cards-master) - A solution that exactly meets the problem specifications with no added adornments or features. <br> - [Solution 2](https://github.com/jdmedlock/gwg18/tree/development/lesson08/Alternative%201-fend-animal-trading-cards) - A solution that uses the DRY principle to reduce CSS class usage. Specifically, using child combinators to assign attributes to HTML tags (e.g. `ul > li`). <br>- [Solution 3](https://github.com/jdmedlock/gwg18/tree/development/lesson08/Alternative%202-fend-animal-trading-cards) - The same as Solution 2, but with the addtion of additional colors for the cards. | Completed   | 01/15/2018
 | Lesson 9   | Next Up                       | Completed   | 01/15/2018     |
 | Lesson 10  | What Is Javascript?           | Completed   | 01/16/2018     |
-| Lesson 11  | Data Type & Variables         | In progress |      |
-| Lesson 12  | Conditionals                  | Not started |      |
+| Lesson 11  | Data Type & Variables         | Completed   | 01/16/2018     |
+| Lesson 12  | Conditionals                  | In progress |      |
 | Lesson 13  | Loops                         | Not started |      |
 | Lesson 14  | Functions                     | Not started |      |
 | Lesson 15  | Arrays                        | Not started |      |
