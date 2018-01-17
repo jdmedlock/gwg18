@@ -23,7 +23,7 @@ This repo contains my solutions to the coursework. If you have also been awarded
 | Lesson 9   | Next Up                       | Completed   | 01/15/2018     |
 | Lesson 10  | What Is Javascript?           | Completed   | 01/16/2018     |
 | Lesson 11  | Data Type & Variables         | Completed   | 01/16/2018     |
-| Lesson 12  | Conditionals                  | Completed   |      |
+| Lesson 12  | Conditionals                  | Completed   | 01/16/2018     |
 | Lesson 13  | Loops                         | In progress |      |
 | Lesson 14  | Functions                     | Not started |      |
 | Lesson 15  | Arrays                        | Not started |      |
