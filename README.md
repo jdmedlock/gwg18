@@ -34,3 +34,12 @@ This repo contains my solutions to the coursework. If you have also been awarded
 | Lesson 20  | Event Listeners with jQuery   | Not started |      |
 | Lesson 21  | Project: Pixel Art Maker      | Not started |      |
 | Lesson 22  | Challenge Course Wrap Up      | Not started |      |
+
+## Additional Resources
+
+- [Udacity Nanodegree Style Guide](https://udacity.github.io/frontend-nanodegree-styleguide/)
+- [5 things you should do to get selected for the 2nd phase of your Google-Udacity Scholarship](https://medium.com/udacity/the-5-things-you-need-to-do-to-get-selected-for-the-2nd-phase-of-your-google-udacity-scholarship-649f22376030)
+- [CSS Tricks](https://css-tricks.com/)
+- [CSS Grid](https://cssgridgarden.com/)
+- [How to make Your CSS Responsive](https://medium.freecodecamp.org/how-to-make-your-html-responsive-by-adding-a-single-line-of-css-2a62de81e431)
+- [Color Picker](paletton.com)
