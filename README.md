@@ -25,8 +25,8 @@ This repo contains my solutions to the coursework. If you have also been awarded
 | Lesson 11  | Data Type & Variables         | Completed   | 01/16/2018     |
 | Lesson 12  | Conditionals                  | Completed   | 01/16/2018     |
 | Lesson 13  | Loops                         | Completed   | 01/17/2018     |
-| Lesson 14  | Functions                     | In progress |      |
-| Lesson 15  | Arrays                        | Not started |      |
+| Lesson 14  | Functions                     | Completed   | 01/19/2018     |
+| Lesson 15  | Arrays                        | In progress |      |
 | Lesson 16  | Objects                       | Not started |      |
 | Lesson 17  | Rate Intro to JavaScript      | Not started |      |
 | Lesson 18  | The Basics: the DOM, $, and Selectors | Not started |      |
