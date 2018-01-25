@@ -26,10 +26,10 @@ This repo contains my solutions to the coursework. If you have also been awarded
 | Lesson 12  | Conditionals                  | Completed   | 01/16/2018     |
 | Lesson 13  | Loops                         | Completed   | 01/17/2018     |
 | Lesson 14  | Functions                     | Completed   | 01/19/2018     |
-| Lesson 15  | Arrays                        | In progress |      |
-| Lesson 16  | Objects                       | Not started |      |
-| Lesson 17  | Rate Intro to JavaScript      | Not started |      |
-| Lesson 18  | The Basics: the DOM, $, and Selectors | Not started |      |
+| Lesson 15  | Arrays                        | Completed   | 01/22/2018     |
+| Lesson 16  | Objects                       | Completed   | 01/24/2018     |
+| Lesson 17  | Rate Intro to JavaScript      | Completed   | 01/24/2018     |
+| Lesson 18  | The Basics: the DOM, $, and Selectors | In progress |      |
 | Lesson 19  | The Tricks: DOM Manipulation  | Not started |      |
 | Lesson 20  | Event Listeners with jQuery   | Not started |      |
 | Lesson 21  | Project: Pixel Art Maker      | Not started |      |
