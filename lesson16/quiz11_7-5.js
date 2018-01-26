@@ -33,8 +33,10 @@ const facebookProfile = {
    */
   deleteMessage: function removeMessage(index) {
     // Ensure that the index is valid before using it
-    if (index === undefined || index < 0 || index > facebookProfile.messages.length) {
-      return -1;
+    if (index === undefined || index == null ||
+        typeof index != 'number' ||
+        index < 0 || index > facebookProfile.messages.length) {
+      return false;
     }
     return facebookProfile.messages.splice(index,1)[0];
   },
@@ -46,10 +48,10 @@ const facebookProfile = {
    */
   postMessage: function addMessage(message) {
     // Ensure that the message is valid before adding it
-    if (message === undefined || message === null) {
-      return -1;
+    if (message === undefined || message === null || typeof message != 'string') {
+      return false;
     }
-    facebookProfile.messages.push(message);
+    return (facebookProfile.messages.push(message) -1);
   },
   /**
    * Increment the friend count
@@ -59,12 +61,28 @@ const facebookProfile = {
    */
   removeFriend: function deleteFriend() {
     if (facebookProfile.friends <= 0) {
-      return -1;
+      return false;
     }
     return --facebookProfile.friends;
   },
 };
 
+// Validation error tests
+console.log('--- Failure condition tests ---');
+console.log(`removeFriend before any were added: ${facebookProfile.removeFriend()}`);
+console.log(`deleteMessage with no parameter: ${facebookProfile.deleteMessage()}`);
+console.log(`deleteMessage with null parameter: ${facebookProfile.deleteMessage(null)}`);
+console.log(`deleteMessage with undefined parameter: ${facebookProfile.deleteMessage(undefined)}`);
+console.log(`deleteMessage with non-numeric parameter: ${facebookProfile.deleteMessage('Hi')}`);
+console.log(`postMessage for delete test: ${facebookProfile.postMessage('Prime messages for delete tests')}`);
+console.log(`deleteMessage with index out of range: ${facebookProfile.deleteMessage(1000)}`);
+console.log(`postMessage with no parameter: ${facebookProfile.postMessage()}`);
+console.log(`postMessage with null parameter: ${facebookProfile.postMessage(null)}`);
+console.log(`postMessage with undefined parameter: ${facebookProfile.postMessage(undefined)}`);
+console.log(`postMessage with non-string parameter: ${facebookProfile.postMessage(42)}`);
+
+// Success condition tests
+console.log('\n\n---Success condition tests---');
 console.log(facebookProfile);
 facebookProfile.addFriend();
 facebookProfile.postMessage('Hello Wilma!');
