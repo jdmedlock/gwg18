@@ -25,6 +25,8 @@ for (let rowNo = 0; rowNo < numbers.length; rowNo++) {
   // when the nested array is modified.
   colLength = numbers[rowNo].length;
   for (let colNo = 0; colNo < colLength; colNo++) {
+    // Note that the ternare in the following command is specified as the third 
+    // parameter in the splice function call.
     numbers[rowNo].splice(colNo,1,(numbers[rowNo][colNo] % 2) === 0 ? 'even' : 'odd');
   }
 }

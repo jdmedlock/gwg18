@@ -29,8 +29,8 @@ This repo contains my solutions to the coursework. If you have also been awarded
 | Lesson 15  | Arrays                        | Completed   | 01/22/2018     |
 | Lesson 16  | Objects                       | Completed   | 01/24/2018     |
 | Lesson 17  | Rate Intro to JavaScript      | Completed   | 01/24/2018     |
-| Lesson 18  | The Basics: the DOM, $, and Selectors | In progress |      |
-| Lesson 19  | The Tricks: DOM Manipulation  | Not started |      |
+| Lesson 18  | The Basics: the DOM, $, and Selectors | Completed | 01/29/2018     |
+| Lesson 19  | The Tricks: DOM Manipulation  | In Progress |      |
 | Lesson 20  | Event Listeners with jQuery   | Not started |      |
 | Lesson 21  | Project: Pixel Art Maker      | Not started |      |
 | Lesson 22  | Challenge Course Wrap Up      | Not started |      |
@@ -44,3 +44,4 @@ This repo contains my solutions to the coursework. If you have also been awarded
 - [CSS Grid](https://cssgridgarden.com/)
 - [How to make Your CSS Responsive](https://medium.freecodecamp.org/how-to-make-your-html-responsive-by-adding-a-single-line-of-css-2a62de81e431)
 - [Color Picker](paletton.com)
+- [jQuery](http://jquery.com/)
