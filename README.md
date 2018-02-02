@@ -31,8 +31,8 @@ This repo contains my solutions to the coursework. If you have also been awarded
 | Lesson 17  | Rate Intro to JavaScript      | Completed   | 01/24/2018     |
 | Lesson 18  | The Basics: the DOM, $, and Selectors | Completed | 01/29/2018     |
 | Lesson 19  | The Tricks: DOM Manipulation  | Completed   | 01/29/2018     |
-| Lesson 20  | Event Listeners with jQuery   | In Progress |      |
-| Lesson 21  | Project: Pixel Art Maker      | Not started |      |
+| Lesson 20  | Event Listeners with jQuery   | Completed   | 02/02/2018     |
+| Lesson 21  | Project: Pixel Art Maker      | In Progress |      |
 | Lesson 22  | Challenge Course Wrap Up      | Not started |      |
 
 ## Additional Resources

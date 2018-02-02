@@ -28,10 +28,10 @@ const facebookProfile = {
   },
   /**
    * Remove a message from the profile.
-   * @param {any} message The message that was removed or -1 if the index
+   * @param {any} message The message that was removed or false if the index
    * parameter is invalid.
    */
-  deleteMessage: function removeMessage(index) {
+  deleteMessage: function (index) {
     // Ensure that the index is valid before using it
     if (index === undefined || index == null ||
         typeof index != 'number' ||
@@ -43,10 +43,10 @@ const facebookProfile = {
   /**
    * Add a new message to the profile.
    * @param {String} message The new message to be added.
-   * @returns {Integer} Index of the new message or -1 if the message
+   * @returns {Integer} Index of the new message or false if the message
    * parameter is invalid.
    */
-  postMessage: function addMessage(message) {
+  postMessage: function (message) {
     // Ensure that the message is valid before adding it
     if (message === undefined || message === null || typeof message != 'string') {
       return false;
@@ -56,10 +56,10 @@ const facebookProfile = {
   /**
    * Increment the friend count
    * 
-   * @returns {Integer} The new friend count or -1 if the friend count was
+   * @returns {Integer} The new friend count or false if the friend count was
    * already 0 
    */
-  removeFriend: function deleteFriend() {
+  removeFriend: function () {
     if (facebookProfile.friends <= 0) {
       return false;
     }
